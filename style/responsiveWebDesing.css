@@ -2,49 +2,92 @@
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
+
   /* Barra de navegacion */
-  .navbar{
+  .navbar {
     display: none;
   }
 
   /* contenido landing page */
-  .content{
+  .content {
     display: flex;
     flex-direction: column;
   }
 
   /* Div description */
-  .description{
+  .description {
     width: 100%;
   }
-  .cubo{
+
+  .cubo {
     width: 95%;
   }
-  .cubo h2{
-    font-size: 20px;
+
+  .cubo-img img {
+    width: 80%;
   }
-  .cubo p{
-    font-size: 10px;
+
+  .cubo h2 {
+    font-size: 35px;
+  }
+
+  .cubo p {
+    font-size: 15px;
   }
 
   /* Div que contiene imagen */
-  .content-img{
+  .content-img {
     width: 100%;
+    background-color: white;
   }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px and max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar {
+    display: none;
+  }
+
+  /* Div description */
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Div description */
+  .description {
+    width: 100%;
+  }
+
+  .cubo {
+    width: 95%;
+  }
+
+  .cubo-img img {
+    width: 80%;
+  }
+
+  .cubo h2 {
+    font-size: 35px;
+  }
+
+  .cubo p {
+    font-size: 10px;
+  }
+
+  /* Div que contiene imagen */
+  .content-img {
+    width: 100%;
+    background-color: white;
+  }
 }
 
 /** dispositivos medianos (tablets) */
-@media (min-width: 768px and max-width: 991px) {
-}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 /** dispositivos grandes (desktops) */
-@media (min-width: 992px and max-width: 1199px) {
-}
+@media (min-width: 992px) and (max-width: 1199px) {}
 
 /** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
