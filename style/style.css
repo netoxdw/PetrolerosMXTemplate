@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Barra de navegacion */
+.nav-main{
+    width: 100%;
+    height: 70px;
+    background-color: #F3F3F3;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    line-height: 70px;
+}
+
+.nav-menu li{
+    margin: 0 2rem;
+}
+
+.nav-menu li a{
+    color: #001C4C;
+}
+
+/* Fin barra de navegacion */
+
+/* Inicio landig page */
+/* Div Content */
+.content{
+    display: flex;
+    width: 100%;
+    height: 750px;
+    background-color: #001C4C;
+    color: white;
+    overflow: hidden;
+}
+
+
+/* Div description */
+.description{
+    width: 50%;
+}
+.cubo{
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* Div que contiene imagen logo */
+.cubo-img{
+    text-align: center;
+    margin-top: 60px;
+}
+.cubo-img img{
+    width: 350px;
+}
+
+.cubo h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 70px;
+}
+
+.cubo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 30px 0;
+}
+
+/* Div content-img */
+.content-img{
+    width: 50%;
+}
+
+.content-img img{
+    width: 100%;
+}
+
+
