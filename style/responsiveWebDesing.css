@@ -40,6 +40,13 @@
     width: 100%;
     background-color: white;
   }
+  .landing-page-img{
+    width: 100%;
+    padding: 0px;
+  }
+  .landing-page-img img{
+    border-radius: 0px;
+  }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
@@ -52,12 +59,12 @@
 
   .content {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   /* Div description */
   .description {
-    width: 100%;
+    width: 50%;
   }
 
   .cubo {
@@ -73,14 +80,22 @@
   }
 
   .cubo p {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   /* Div que contiene imagen */
   .content-img {
-    width: 100%;
+    width: 50%;
     background-color: white;
   }
+  .landing-page-img{
+    width: 100%;
+    padding: 0px;
+  }
+  .landing-page-img img{
+    border-radius: ;
+  }
+
 }
 
 
@@ -116,7 +131,7 @@
 }
 
 /** dispositivos medianos (tablets) */
-@media (min-width: 928px) and (max-width: 991px) {
+@media (min-width: 927.1px) and (max-width: 991px) {
   /* Nav > li */
   .nav-menu li{
     margin: 0 1rem important;
