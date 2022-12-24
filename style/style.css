@@ -4,7 +4,6 @@
 }
 
 body{
-    background-color: #FFFFFF;
     font-size: 16px;
 }
 
@@ -32,21 +31,21 @@ ul{
     position: fixed;
 }
 /* Flex container */
-.nav-menu {
+/* .nav-menu {
     display: flex;
     justify-content: center;
     line-height: 70px;
-}
+} */
 
-.nav-menu li{
+.nav-item{
     margin: 0 2rem;
 }
 
-.nav-menu li a{
+.nav-link{
     color: #001C4C;
 }
 
-.nav-menu li a:hover{
+.nav-link:hover{
     border-bottom: 4px solid red;
 }
 

@@ -2,12 +2,16 @@
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-
-  /* Barra de navegacion */
-  .navbar {
-    display: none;
+  /* Menu hamburguesa */
+  .collapse {
+    border-radius: 15px;
+    box-shadow: 2px 0 3px black;
   }
-
+  .nav-link {
+    color: white;
+    background-color: white;
+    text-align: center;
+  }
   /* contenido landing page */
   .content {
     display: flex;
@@ -51,10 +55,6 @@
 
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {
-  .navbar {
-    display: none;
-  }
-
   /* Div description */
 
   .content {
@@ -92,51 +92,13 @@
     width: 100%;
     padding: 0px;
   }
-  .landing-page-img img{
-    border-radius: ;
-  }
+
 
 }
 
-
-@media (min-width: 768px) and (max-width: 927px) {
-  /* Nav > li */
-  .nav-menu li{
-    margin: 0 1rem important;
-}
-
-/* Landing page */
-/* Description > .cubo */
-  .cubo{
-    width: 95%;
-    padding-bottom: 20px;
-  }
-  .cubo h2{
-    font-size: 40px;
-  }
-  .cubo p{
-    font-size: 15px;
-  }
-
-  /* Div que contiene imagen */
-  .landing-page-img{
-    text-align: center;
-  }
-  .landing-page-img img{
-    border-radius: 15px;
-    width: 420px;
-    height: 570px;
-  }
-
-}
 
 /** dispositivos medianos (tablets) */
 @media (min-width: 927.1px) and (max-width: 991px) {
-  /* Nav > li */
-  .nav-menu li{
-    margin: 0 1rem important;
-}
-
 /* Landing page */
 /* Description > .cubo */
   .cubo{
