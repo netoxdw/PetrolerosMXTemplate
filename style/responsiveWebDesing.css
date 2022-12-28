@@ -3,15 +3,16 @@
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
   /* Menu hamburguesa */
-  .collapse {
+  .navbar-collapse{
     border-radius: 15px;
     box-shadow: 2px 0 3px black;
+    background-color: #F3F3F3;
+    
   }
   .nav-link {
-    color: white;
-    background-color: white;
     text-align: center;
   }
+
   /* contenido landing page */
   .content {
     display: flex;
@@ -45,10 +46,11 @@
     background-color: white;
   }
   .landing-page-img{
-    width: 100%;
+    /* width: 100%; */
     padding: 0px;
   }
   .landing-page-img img{
+    width: 100%;
     border-radius: 0px;
   }
 }
