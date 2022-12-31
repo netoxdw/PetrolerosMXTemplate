@@ -188,7 +188,7 @@ ul {
 
 
 /** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 768px) {
 
    
     /* Menu hamburguesa */
@@ -250,62 +250,31 @@ ul {
 
 /** dispositivos medianos (tablets) */
 @media (min-width: 927.1px) and (max-width: 991px) {
-    
-    
     /* Menu hamburguesa */
     .navbar-collapse {
         border-radius: 15px;
         box-shadow: 2px 0 3px black;
         background-color: #F3F3F3;
-
     }
-
     .nav-link {
         text-align: center;
     }
 
-    /* contenido landing page */
-    .content {
-        display: flex;
-        flex-direction: column;
+    /* Lannding page */
+    .description{
+        width: 45%;
     }
 
-    /* Div description */
-    .description {
-        width: 100%;
+    /* Description */
+    .cubo h2{
+        font-size: 40px;
+    }
+    /* .content-img */
+    .landing-page-img img{
+        width: 400px;
+        height: 500px;
     }
 
-    .cubo {
-        width: 95%;
-    }
-
-    .cubo-img img {
-        width: 80%;
-    }
-
-    .cubo h2 {
-        font-size: 35px;
-    }
-
-    .cubo p {
-        font-size: 15px;
-    }
-
-    /* Div que contiene imagen */
-    .content-img {
-        width: 100%;
-        background-color: white;
-    }
-
-    .landing-page-img {
-        /* width: 100%; */
-        padding: 0px;
-    }
-
-    .landing-page-img img {
-        width: 100%;
-        border-radius: 0px;
-    }
     }
     
 /** dispositivos grandes (desktops) */
