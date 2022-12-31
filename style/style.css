@@ -309,7 +309,11 @@ ul {
     }
     
 /** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .content{
+        display: flex;
+    }
+}
 
 /** dispositivos extra grandes (monitores grandes, tvs) */
 @media (min-width: 1200px) {}
