@@ -328,4 +328,12 @@ ul {
 }
 
 /** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px){
+    /* description */
+    .cubo-img img{
+        width: 400px;
+    }
+    .cubo h2{
+        font-size: 60px;
+    }
+}
