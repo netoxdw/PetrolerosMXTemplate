@@ -1,0 +1,214 @@
+/* Responsive */
+/* ######################################################################## */
+/* ######################################################################## */
+/* ######################################################################## */
+/* ######################################################################## */
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+
+    /* Menu hamburguesa */
+    .navbar-collapse {
+        border-radius: 15px;
+        box-shadow: 2px 0 3px black;
+        background-color: #F3F3F3;
+
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    /* contenido landing page */
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Div description */
+    .description {
+        width: 100%;
+    }
+
+    .cubo {
+        width: 95%;
+    }
+
+    .cubo-img img {
+        width: 80%;
+    }
+
+    .cubo h2 {
+        font-size: 35px;
+    }
+
+    .cubo p {
+        font-size: 15px;
+    }
+
+    /* Div que contiene imagen */
+    .content-img {
+        width: 100%;
+        background-color: white;
+    }
+
+    .landing-page-img {
+        /* width: 100%; */
+        padding: 0px;
+    }
+
+    .landing-page-img img {
+        width: 100%;
+        height: 425px;
+        border-radius: 0px;
+    }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+    /* Menu hamburguesa */
+    .navbar-collapse {
+        border-radius: 15px;
+        box-shadow: 2px 0 3px black;
+        background-color: #F3F3F3;
+
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    /* contenido landing page */
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Div description */
+    .description {
+        width: 100%;
+    }
+
+    .cubo {
+        width: 95%;
+    }
+
+    .cubo-img img {
+        width: 80%;
+    }
+
+    .cubo h2 {
+        font-size: 35px;
+    }
+
+    .cubo p {
+        font-size: 15px;
+    }
+
+    /* Div que contiene imagen */
+    .content-img {
+        width: 100%;
+        background-color: white;
+    }
+
+    .landing-page-img {
+        /* width: 100%; */
+        padding: 0px;
+    }
+
+    .landing-page-img img {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991.5px) {
+
+    /* Menu hamburguesa */
+    .navbar-collapse {
+        border-radius: 15px;
+        box-shadow: 2px 0 3px black;
+        background-color: #F3F3F3;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    /* Lannding page */
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Div description */
+    .description {
+        width: 100%;
+    }
+
+    .cubo {
+        width: 85%;
+    }
+
+    .cubo-img img {
+        width: 80%;
+    }
+
+    /* Div que contiene imagen */
+    .content-img {
+        width: 100%;
+        /* background-color: white; */
+    }
+
+
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .content {
+        width: 100%;
+        height: 530px;
+
+    }
+    /* Description */
+    .cubo h2 {
+        font-size: 45px;
+        font-family: 'Oswald', sans-serif;
+        margin: 70px 0px;
+        letter-spacing: 3px;
+    }
+
+
+    /* conten-img */
+    .content-img {
+        width: 50%;
+    }
+    
+    .landing-page-img {
+        text-align: center;
+        padding: 5px 0;
+    }
+    
+    .landing-page-img img {
+        width: 465px;
+        height: 515px;
+        border-radius: 15px;
+    }
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px){
+    /* description */
+    .cubo-img img{
+        width: 400px;
+    }
+    .cubo h2{
+        font-size: 60px;
+    }
+}
