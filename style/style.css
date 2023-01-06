@@ -63,7 +63,7 @@ ul {
 
 /* Inicio landig page */
 /* Div Content */
-.content {
+.header {
     display: flex;
     width: 100%;
     background-color: #001C4C;
@@ -121,5 +121,31 @@ ul {
     border-radius: 15px;
 }
 
+/* ################################################################## */
+/* ################################################################## */
+/* ################################################################## */
 
+/* Articles */
+.articles{
+    width: 100%;
+}
+
+.article{
+    width: 90%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.article h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px;
+    color: #001C4C;
+}
+
+.article p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
 
