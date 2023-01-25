@@ -1,3 +1,18 @@
+/* Importar simbolos */
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url('fonts/websymbols-regular-webfont.eot');
+    /* formato para diferentes navegadores */
+    src: url('fonts/websymbols-regular-webfont.eot') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 * {
     padding: 0px;
     margin: 0px;
@@ -149,3 +164,39 @@ ul {
     font-size: 17px;
 }
 
+/* ################################################################## */
+/* ################################################################## */
+/* ################################################################## */
+
+/* Footer */
+footer{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 5px #666;
+    margin-top: 20px;
+}
+
+
+/* footer redes sociales */
+.icon{
+    font-family: "WebSymbolsRegular";
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 5px 10px;
+}
