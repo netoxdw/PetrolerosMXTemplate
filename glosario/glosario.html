@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -12,10 +12,8 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/reposnsiveWebDesing.css">
-
-    <title>Petroleros mx</title>
+    <link rel="stylesheet" href="./style.css/glosario.css">
+    <title>PetrolerosMx/glosario</title>
 </head>
 
 <body>
@@ -30,9 +28,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./../index.html">Inicio</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./glosario/glosario.html">Glosario</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Glosario</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Temas</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Noticias</a></li>
                     </ul>
@@ -41,45 +39,50 @@
         </nav>
     </header>
 
-
-    <!-- Contenido de landing page -->
-    <header class="header">
-        <div class="description">
-            <div class="cubo">
-                <figure class="cubo-img">
-                    <img src="https://res.cloudinary.com/dea8mmw8j/image/upload/v1672271960/Petroleros%20mx/BLANCO-LOGO_PETROLEROS_MX_qpwij0.png"
-                        alt="">
-                </figure>
-
-                <h2>Glosario de ingeniería petrolera en México, simple y confiable.</h2>
-            </div>
+    <!-- Glosario -->
+    <section class="content">
+        <!-- Lista de terminos-->
+        <h1>Glosario</h1>
+        <div>
+            <!-- input de busqueda -->
+            <form action="">
+                <input type="search">
+            </form>
+        </div>
+        <div>
+            <ul class="ABC">
+                <li><a href="#">A</a></li>
+                <li><a href="#">B</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">D</a></li>
+                <li><a href="#">E</a></li>
+                <li><a href="#">F</a></li>
+                <li><a href="#">G </a></li>
+                <li><a href="#">H </a></li>
+                <li><a href="#">I </a></li>
+                <li><a href="#">J </a></li>
+                <li><a href="#">K </a></li>
+                <li><a href="#">L </a></li>
+                <li><a href="#">M </a></li>
+                <li><a href="#">N </a></li>
+                <li><a href="#">Ñ </a></li>
+                <li><a href="#">O </a></li>
+                <li><a href="#">P </a></li>
+                <li><a href="#">Q </a></li>
+                <li><a href="#">R </a></li>
+                <li><a href="#">S </a></li>
+                <li><a href="#">T</a></li>
+                <li><a href="#">W </a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Y</a></li>
+                <li><a href="#">Z</a></li>
+            </Ul>
         </div>
 
-        <div class="content-img">
-            <figure class="landing-page-img">
-                <img src="https://res.cloudinary.com/dea8mmw8j/image/upload/v1672275514/Petroleros%20mx/pozo_f7i8rw.jpg"
-                    alt="pozo">
-            </figure>
-        </div>
-    </header>
-
-    <section class="articles">
-
-        <article class="article">
-            <header>
-                <h1>¿Qué es el petróleo?</h1>
-            </header>
-            <p> El petróleo es una sustancia combustible negra y viscosa, líquida a temperatura y presión normales.
-                Cuya composición principal es Hidrógeno y Carbono. Se origina a partir de una materia prima formada
-                fundamentalmente por restos de organismos vivos acuáticos, vegetales y animales que vivían en los mares,
-                las lagunas, las desembocaduras de los ríos y en las cercanías del mar. Estos restos fueron atacados en
-                los fondos fangosos por bacterias anaerobias que consumieron su oxígeno dejando únicamente moléculas de
-                carbono e hidrógeno llamadas hidrocarburos.
-            </p>
-        </article>
     </section>
 
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="autor">
             <p>&copy; Desarrollado por Ernesto Guevara Tapia </p>
@@ -97,9 +100,6 @@
             </div>
         </div>
     </footer>
-
-
-
 
     <!-- Scrips de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
