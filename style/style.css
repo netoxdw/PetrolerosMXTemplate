@@ -145,13 +145,14 @@ ul {
     width: 100%;
 }
 
-.article{
+.article-none{
     width: 90%;
     padding: 30px;
     margin: 0 auto;
+    
 }
 
-.article h1{
+.article-none h1{
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     font-weight: 500;
@@ -159,10 +160,33 @@ ul {
     color: #001C4C;
 }
 
-.article p{
+.article-none p{
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
 }
+
+/* Article-par */
+.article-par{
+    width: 90%;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #F3F3F3;
+    box-shadow: 3px 3px 3px #666;
+}
+
+.article-par h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px;
+    color: #001C4C;
+}
+
+.article-par p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
 
 /* ################################################################## */
 /* ################################################################## */
