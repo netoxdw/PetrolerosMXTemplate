@@ -170,6 +170,7 @@ ul {
     width: 90%;
     padding: 30px;
     margin: 0 auto;
+    border-radius: 15px;
     background-color: #F3F3F3;
     box-shadow: 3px 3px 3px #666;
 }
@@ -179,7 +180,7 @@ ul {
     font-size: 40px;
     font-weight: 500;
     margin: 20px;
-    color: #001C4C;
+    color: #008F39;
 }
 
 .article-par p{
