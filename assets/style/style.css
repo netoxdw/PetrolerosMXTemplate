@@ -83,9 +83,10 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: rgba(35,39,47,255);
     color: white;
     overflow: hidden;
+    background: rgb(42,93,255);
+    background: linear-gradient(0deg, rgba(42,93,255,0.9529061624649859) 0%, rgba(12,80,228,1) 70%);
 }
 
  /* Div description */
@@ -99,6 +100,7 @@ ul {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+
 }
 
 .cubo-img{
@@ -108,6 +110,11 @@ ul {
     width: 80%;
 }
 
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+}
 .cubo h2 {
     font-size: 35px;
 }
@@ -119,7 +126,6 @@ ul {
 /* Div que contiene imagen */
 .content-img {
     width: 100%;
-    background-color: white;
 }
 
 .landing-page-img {
@@ -272,7 +278,6 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(35,39,47,255);
     }
     .landing-page-img{
         width: 30em;
