@@ -13,277 +13,98 @@
 }
 
 
+/* Variables */
+:root{
+    /* Font-family */
+    --family_h1: 'Space Grotesk', sans-serif;
+    --family_h2: 'Bebas Neue', sans-serif;
+    --family_h3: 'Nunito Sans', sans-serif;
+    --family_p: 'Roboto', sans-serif;
+    --family_li: 'Heebo', sans-serif;
+
+
+    /* Colores */
+    --color1: #0444fc;
+    --color2: #1051ff;
+    --color3: #327bff;
+    --color4: #58a3ff;
+    --color5: #d5efff;
+    --color6: #e8f7ff;
+    --background-color: #ffffff;
+    --contraste-gris:rgba(243,243,243,255);
+    --color-texto: #101010;
+}
+
+
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
 body {
-    font-size: 16px;
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
+    background-color: var(--background-color);
 }
 
-a {
-    color: black;
-    text-decoration: none;
+.content{
+    width: 90%;
+    margin: auto;
 }
 
-ul {
-    list-style: none;
-}
 
 /* Barra de navegacion */
 /* ############################################## */
 /* ############################################## */
 /* ############################################## */
-.fixed-nav {
-    width: 100%;
-    height: 70px;
-}
-.navbar-collapse {
-    border-radius: 15px;
-    box-shadow: 2px 0 3px black;
-    background-color: #F3F3F3;
-}
-.navbar {
-    width: 100%;
-    height: 70px;
-    background-color: #F3F3F3;
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    /* Anclar barra */
-    position: fixed;
-}
-
-
-.nav-item {
-    margin: 0 2rem;
-}
-
-.nav-link {
-    color: #001C4C;
-}
-
-.nav-link:hover {
-    border-bottom: 4px solid red;
-}
-
-/* Fin barra de navegacion */
-
-
-/* ################################################################## */
-/* ################################################################## */
-/* ################################################################## */
-
-/* Inicio landig page */
-/* Div Content */
-.hero {
+.navbar{
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    color: white;
-    overflow: hidden;
-    background: rgb(42,93,255);
-    background: linear-gradient(0deg, rgba(42,93,255,0.9529061624649859) 0%, rgba(12,80,228,1) 70%);
-}
-
- /* Div description */
-
-
-.cubo {
-    width: 95%;
-    height: 30em;
-    display: flex;
-    margin: 0px auto;
-    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--family_li);
+    font-size: 1.125rem;
+    color: var(--color-texto);
     justify-content: space-evenly;
-    text-align: center;
-
-}
-
-.cubo-img{
-    text-align: center;
-}
-.cubo-img img {
-    width: 80%;
-}
-
-.encabezado{
-    display: flex;
-    flex-direction: column;
-    width: 40rem;
-}
-.cubo h2 {
-    font-size: 35px;
-}
-
-.cubo p {
-    font-size: 15px;
-}
-
-/* Div que contiene imagen */
-.content-img {
-    width: 100%;
-}
-
-.landing-page-img {
-    /* width: 100%; */
-    padding: 0px;
-}
-
-.landing-page-img img {
-    width: 100%;
-    border-radius: 0px;
-}
-
-/* ################################################################## */
-/* ################################################################## */
-/* ################################################################## */
-
-/* Articles */
-.articles{
-    width: 100%;
-}
-
-.article-none{
-    width: 90%;
-    padding: 30px;
-    margin: 0 auto;
-    
-}
-
-.article-none h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    margin: 20px;
-    color: #001C4C;
-}
-
-.article-none p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-}
-
-/* Article-par */
-.article-par{
-    width: 90%;
-    padding: 30px;
-    margin: 0 auto;
-    border-radius: 15px;
-    background-color: #F3F3F3;
-    box-shadow: 3px 3px 3px #666;
-}
-
-.article-par h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    margin: 20px;
-    color: #008F39;
-}
-
-.article-par p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
 }
 
 
-/* ################################################################## */
-/* ################################################################## */
-/* ################################################################## */
-
-/* Footer */
-footer{
-    width: 100%;
-    margin: 0px auto;
-    text-align: center;
-    background-color: #333;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    box-shadow: 0px 0px 5px #666;
-    margin-top: 20px;
+.logo-navbar{
+    width: 190px;
+    margin-left: 5rem;
 }
 
 
-/* footer redes sociales */
-.social{
-    display: flex;
-    justify-content: center;
+/* Hero */
+/* ############################################## */
+/* ############################################## */
+/* ############################################## */
+
+.hero{
+    /* display: flex; */
+    align-items: center;
+    background-image:  url("./../img/img-hero.jpg");
+    background-repeat: repeat-x;
+    height: 13rem;
 }
-.social i{
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    margin: 5px 10px;
+
+.article-hero{
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: var(--background-color);
+
 }
 
-
-
-/* ############################################################## */
-/* ############################################################## */
-/* ############################################################## */
-
-
-@media (min-width: 890px){
-    .navbar-collapse {
-    border-radius: 15px;
-    box-shadow: none;
-    background-color: #F3F3F3;
-    }
-    .navbar {
-    width: 100%;
-    height: 70px;
-    background-color: #F3F3F3;
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    /* Anclar barra */
-    position: fixed;
-    }
-
-
-    .nav-item {
-        margin: 0 2rem;
-    }
-
-    .nav-link {
-        color: #001C4C;
-    }
-
-    .nav-link:hover {
-        color: red;
-    }
-
-
-
-    .hero{
-        display: flex;
-        flex-direction: row;
-        height: 40em;
-        justify-content: center;
-        align-items: center;
-    }
-    .cubo{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .content-img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .landing-page-img{
-        width: 30em;
-        padding: 15px 15px;
-    }
-    .landing-page-img img{
-        border-radius: 15px;
-    }
+.article-hero .content{
+    /* text-align: center; */
+    padding: 10px;
 }
+
+.article-hero .content h1{
+    font-family: var(--family_h1);
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
