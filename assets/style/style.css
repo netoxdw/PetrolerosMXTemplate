@@ -243,6 +243,7 @@ footer{
 
     .cubo {
         width: 95%;
+        text-align: center;
     }
 
     .cubo-img img {
